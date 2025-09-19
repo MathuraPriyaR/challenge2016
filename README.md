@@ -11,8 +11,8 @@ This is a simple Streamlit app to check distributor permissions based on `distri
 2. Start the app:
     streamlit run app.py
 
-3. Open your browser at:
-    http://localhost:8501
+3. Opens your browser at:
+    http://localhost
 
 
 ## Files
