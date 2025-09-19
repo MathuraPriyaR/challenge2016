@@ -1,0 +1,54 @@
+{
+    "distributors": [
+        {
+            "name": "DISTRIBUTOR1",
+            "INCLUDE": [
+                "IN",
+                "US"
+            ],
+            "EXCLUDE": [
+                "KA-IN",
+                "CENAI-TN-IN"
+            ]
+        },
+        {
+            "name": "DISTRIBUTOR2",
+            "INCLUDE": [
+                "IN"
+            ],
+            "EXCLUDE": [
+                "KA-IN",
+                "CENAI-TN-IN"
+            ]
+        },
+        {
+            "name": "DISTRIBUTOR3",
+            "Authorized_by": "DISTRIBUTOR1",
+            "INCLUDE": [
+                "US"
+            ],
+            "EXCLUDE": []
+        },
+        {
+            "name": "DISTRIBUTOR4",
+            "Authorized_by": "DISTRIBUTOR3",
+            "INCLUDE": [
+                "IN",
+                "US",
+                "CA"
+            ],
+            "EXCLUDE": [
+                "IN",
+                "TN-IN"
+            ]
+        },
+        {
+            "name": "DISTRIBUTOR5",
+            "INCLUDE": [],
+            "EXCLUDE": [
+                "DAHNE-AL-US"
+            ],
+            "Authorized_by": "DISTRIBUTOR3"
+        }
+    ]
+}
